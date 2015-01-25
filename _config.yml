@@ -1,15 +1,17 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Project Manager who pretends he can code
+description: select _ from random_thoughts
+meta_description: 
 
 markdown: redcarpet
 highlighter: pygments
 logo: false
-paginate: 15
+paginate: 5
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
+domain_name: 'http://geerttheys.com'
+google_analytics: 'UA-18869272-1'
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'http://geerttheys.com'
+author:         'Geert Theys'
+
+exclude: ['config','Rakefile','LICENSE.txt','README.md', 'Gemfile.lock', 'Gemfile']
