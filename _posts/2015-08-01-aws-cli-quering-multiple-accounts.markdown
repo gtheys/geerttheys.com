@@ -41,7 +41,7 @@ To make it a bit more secure and I use this only to query aws we'll setup an rea
 
 There are suffcient google search sources [like this one](http://support.cloudcheckr.com/getting-started-with-cloudcheckr/adding-your-credentials-to-cloudcheckr/creating-read-only-policy/) on how to do this.
 
-Extract your `aws_access_key_id` and `aws_secret_access_key.
+Extract your `aws_access_key_id` and `aws_secret_access_key`.
 
 # Setup multiple accounts for aws cli
 
@@ -115,7 +115,7 @@ This gives me as output a json file or a table depending on your `.aws/config`se
 
 # Some jq in the mix
 
-As a json file is hard to parse and I just want to see 1 specific entry we can do some more cli trickery. I love the cli and I love tools designed for the cli. JSON are a bitch to parse using traditional awk/sed toolchain. But [Jq](http://stedolan.github.io/jq/tutorial/) to the rescue. On macosx we can install it using [brew](http://brew.sh): `brew install jq`
+As a json file is hard to parse and I just want to see 1 specific entry we can do some more cli trickery. I love the cli and I love tools designed for the cli. JSON is hard to parse using traditional awk/sed toolchain. But [Jq](http://stedolan.github.io/jq/tutorial/) to the rescue. On macosx we can install it using [brew](http://brew.sh): `brew install jq`
 
 Now let's show an example:
 
