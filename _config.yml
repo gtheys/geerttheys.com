@@ -5,7 +5,7 @@ meta_description: in sana in corpore sano
 markdown: redcarpet
 redcarpet:
   extensions: [footnotes]
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 5
 baseurl: /
@@ -15,5 +15,6 @@ google_analytics: 'UA-18869272-1'
 # Details for the RSS feed generator
 url:            'http://geerttheys.com'
 author:         'Geert Theys'
+gems: [jekyll-paginate,jekyll-gist]
 
 exclude: ['config','Rakefile','LICENSE.txt','README.md', 'Gemfile.lock', 'Gemfile']
