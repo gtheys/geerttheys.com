@@ -52,7 +52,7 @@ module Jekyll
           maker.items.new_item do |item|
             item.title = post.title
             item.link = "#{site.config['url']}#{post.url}"
-            item.description = parser.convert(post.excerpt)
+            item.description = parser.convert(post.to_liquid['excerpt'])
             item.updated = post.date
           end
         end
