@@ -14,7 +14,7 @@ As Agile coach this is a common pattern when working with new teams: absent docu
 People will find creative objections. They try to rationalize why documentation is not needed. 
 
 * We work Agile
-* Everything changes to quickly 
+* Everything changes too quickly 
 * It's just a waist time
 * You can read the code/tests 
 
@@ -26,7 +26,7 @@ This ranges from business processes to technical and operational processes.
 
 You can still work agile. You can still keep up in a fast and dynamic environment. Value is removing operational ambiguity. This can be done by writing a base process and incrementally review and improve.
 
-Agility still needs stability in operations. Trust is build on stability. Repeatable process improves reliability.
+Agility still needs stability in operations. Trust is built on stability. Repeatable process improves reliability.
 
 ## Efficiency
 
