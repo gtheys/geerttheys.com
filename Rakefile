@@ -18,7 +18,7 @@ task :np do
       file.puts "---"
     end
   end
-  `nvim #{path}`
+  `mvim #{path}`
  
   exit 1
 end
