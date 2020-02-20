@@ -5,29 +5,29 @@ cover: /assets/images/banner.png
 ---
 
 <div class="container">
-<div class="header">
-    <section class="meta">
-      <a class="block" href="https://twitter.com/toadi">
-        <span class="ss-social-circle ss-twitter" />
-      </a>
+    <div class="header">
+        <section class="meta">
+            <a class="block" href="https://twitter.com/toadi">
+                <span class="ss-social-circle ss-twitter" />
+            </a>
 
-      <a class="block" href="https://github.com/gtheys">
-        <span class="ss-social-circle ss-octocat" />
-      </a>
-      <a class="block" href="https://pinboard.in/u:gtheys">
-        <span class="ss-social-circle ss-pinboard" />
-      </a>
-      <a class="block" href="https://lu.linkedin.com/in/gtheys">
-        <span class="ss-social-circle ss-linkedin" />
-      </a>
-      <div style="clear: both"></div>
-    </section>
+            <a class="block" href="https://github.com/gtheys">
+                <span class="ss-social-circle ss-octocat" />
+            </a>
+            <a class="block" href="https://pinboard.in/u:gtheys">
+                <span class="ss-social-circle ss-pinboard" />
+            </a>
+            <a class="block" href="https://lu.linkedin.com/in/gtheys">
+                <span class="ss-social-circle ss-linkedin" />
+            </a>
+            <div style="clear: both"></div>
+        </section>
 
-    <a href="/"> <img src="/assets/images/geert_theys_handwritten.png" alt="Geert Theys"></a>
+        <a href="/"> <img src="/assets/images/geert_theys_handwritten.png" alt="Geert Theys"></a>
+    </div>
 </div>
-</div>
 
-<header class="site-head" {% if page.cover %} style="background-image: url({{ page.cover }})"{% endif%}></header>
+<header class="site-head" {% if page.cover %} style="background-image: url({{ page.cover }})" {% endif%}></header>
 
 
 <main id="content" class="content" role="main">
@@ -48,20 +48,20 @@ cover: /assets/images/banner.png
         </section>
         <footer class="post-meta">
             {% if site.author %}
-                <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
-                {{ site.author }}
+            <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
+            {{ site.author }}
             {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
+            {% if post.categories.size > 0 %}
+            {{ post.categories | array_to_sentence_string | prepend: 'on ' }}
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
-            </time> 
+            </time>
         </footer>
     </article>
 
     <!-- Capser below -->
-<!--     <article class="{{post_class}}">
+    <!--     <article class="{{post_class}}">
     <header class="post-header">
         <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
     </header>

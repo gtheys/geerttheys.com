@@ -9,12 +9,13 @@ highlighter: rouge
 logo: false
 paginate: 5
 baseurl: /
-domain_name: 'http://geerttheys.com'
-google_analytics: 'UA-18869272-1'
+domain_name: "http://geerttheys.com"
+google_analytics: "UA-18869272-1"
 
 # Details for the RSS feed generator
-url:            'http://geerttheys.com'
-author:         'Geert Theys'
-gems: [jekyll-paginate,jekyll-gist]
+url: "http://geerttheys.com"
+author: "Geert Theys"
+gems: [jekyll-paginate, jekyll-gist]
 
-exclude: ['config','Rakefile','LICENSE.txt','README.md', 'Gemfile.lock', 'Gemfile']
+exclude:
+  ["config", "Rakefile", "LICENSE.txt", "README.md", "Gemfile.lock", "Gemfile"]
