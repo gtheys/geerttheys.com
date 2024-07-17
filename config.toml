@@ -49,9 +49,9 @@ smart_punctuation = false          # `...` to `…`, `"quote"` to `“curly”` 
 ###############################################################################
 
 menu = [
-  { url = "blog", name = "Blog", slash = true, blank = false, size = "s110" },
+  # { url = "blog", name = "Blog", slash = true, blank = false, size = "s110" },
   { url = "about", name = "About", slash = true, blank = false, size = "s110" },
-  #  { url = "archive", name = "Posts", slash = true, blank = false, size = "s110" },
+  { url = "archive", name = "Posts", slash = true, blank = false, size = "s110" },
   #    {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
   { url = "tags", name = "Tags", slash = true, blank = false, size = "s110" },
 ]
@@ -87,7 +87,7 @@ logo = { file = "geert-theys.svg", width = "320", alt = "Geert Theys" }
 textlogo = 'Geert Theys'
 
 sitedesc = false # enables or disables the display of the site description below the logo.
-headhr = false   # show or hide horizontal rule below header
+headhr = true    # show or hide horizontal rule below header
 foothr = false   # show or hide horizontal rule above footer
 
 ### $CURRENT_YEAR and $SITE_TITLE can be used anywhere within the copyright, you can change their position or you can also delete them and type whatever you want instead.

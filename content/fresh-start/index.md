@@ -1,17 +1,20 @@
 +++
-title = "Fresh start and a new blog"
+title = "Fresh start"
+description = "Fresh new start on writing about topics I love."
 date = 2024-07-13
-draft = False
+draft = false
 
 [taxonomies]
 tags = ["Opinion", "Personal"]
 
 [extra]
 keywords = "Writing"
-toc = true
+toc = false
 +++
 
-# Why?
+I have been dabling in blogs since the 90s. I have written some content but never persisted in it or put in discpline forward.
+
+This will be an effort to change that. You could read my [last attempt](http://old.geerttheys.com) but me mindfull there is no https option.
 
 ## In the age of video and short video content?
 
