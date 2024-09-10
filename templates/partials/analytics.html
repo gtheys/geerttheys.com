@@ -1,5 +1,13 @@
+{% if config.extra.goatcounter_code %}
+<script
+  data-goatcounter="https://{{ config.extra.goatcounter_code }}.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+{% else %}
 <script
   data-goatcounter="https://geerttheys.goatcounter.com/count"
   async
   src="//gc.zgo.at/count.js"
 ></script>
+{% endif %}

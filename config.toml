@@ -115,6 +115,8 @@ seo = true                                     # enable or disable seo-related m
 
 #head_extra = '<meta name="analytics" content="my-analytics-id" /><meta name="advertising" content="my-advertising-id" />'
 
+goatcounter_code = "geerttheys"
+
 
 ###############################################################################
 ### Footer social links; these are used in macros/social.html
