@@ -32,7 +32,7 @@
       <div>
         {%- if config.extra.logo -%}
 
-        <h1><a href="{{ get_url(path="/", lang=lang) }}{%- if uglyurls %}/index.html{%- endif %}" title="{{config.title}}">
+        <h1><a href="{{ get_url(path="/", lang=lang) }}{%- if uglyurls %}/index.html{%- endif %}" title="{{ config.title }}">
         {%- if config.extra.logo.file -%}
         <img src="{{ config.base_url | safe }}/{{ config.extra.logo.file | safe }}"{%- if config.extra.logo.alt %} alt="{{ config.extra.logo.alt | safe }}"{%- endif %}{%- if config.extra.logo.width %} width="{{ config.extra.logo.width | safe }}"{%- endif %}{%- if config.extra.logo.height %} height="{{ config.extra.logo.height | safe }}"{%- endif %} />
         {%- endif -%}
@@ -40,11 +40,9 @@
         </a></h1>
 
         {%- elif config.extra.textlogo -%}
-        <h1><a href="{{ get_url(path="/", lang=lang) }}{%- if uglyurls -%}
-        {%- if lang == config.default_language -%}/{%- endif -%}
-        index.html{%- endif -%}" title="{{config.title}}">{{ config.extra.textlogo | safe }}</a></h1>
+        <h1><a href="{{ get_url(path="/", lang=lang) }}{%- if uglyurls -%}/index.html{%- endif -%}" title="{{ config.title }}">{{ config.extra.textlogo | safe }}</a></h1>
         {%- elif config.title -%}
-        <h1><a href="{{ get_url(path="/", lang=lang) }}{%- if uglyurls %}/index.html{%- endif %}" title="{{config.title}}">{{ config.title | safe }}</a></h1>
+        <h1><a href="{{ get_url(path="/", lang=lang) }}{%- if uglyurls %}/index.html{%- endif %}" title="{{ config.title }}">{{ config.title | safe }}</a></h1>
         {%- endif -%}
       </div>
       <div>
@@ -55,13 +53,13 @@
             {%- set js_switcher=config.extra.js_switcher | default(value=true) %}
             {%- if config.extra.menu %}
               {%- for i in config.extra.menu -%}
-                <li><a{%- if i.size %} class="{{ i.size }}"{% endif %} href="{%- if i.url is matching("^http[s]?://") %}{{ i.url }}{%- else -%}{{ get_url(path=i.url, lang=lang, trailing_slash=i.slash) }}{%- if i.slash and uglyurls %}index.html{%- endif %}{%- endif %}"{% if i.blank %} target="_blank"{% endif %}>
-                {%- if lang != config.default_language %} {{ macros::translate(key=i.name|safe, default=i.name|safe, i18n=i18n) }} {% else %} {{ i.name | safe }} {% endif -%}
+                <li><a{%- if i.size %} class="{{ i.size }}"{% endif %} href="{%- if i.url is matching("^https?://") %}{{ i.url }}{%- else -%}{{ get_url(path=i.url, lang=lang, trailing_slash=i.slash) }}{%- if i.slash and uglyurls %}/index.html{%- endif %}{%- endif %}"{% if i.blank %} target="_blank"{% endif %}>
+                {{ macros::translate(key=i.name|safe, default=i.name|safe, i18n=i18n) }}
                 </a></li>
               {%- endfor -%}
             {%- endif -%}
 
-            {%- if config.languages | length > 0 %}
+            {%- if config.languages and config.languages | length > 0 %}
             <li><div class="dropdown"><i class="svgs world" type="reset"></i>
               {%- if current_url %}
                 <div class="dropdown-content">
@@ -73,7 +71,7 @@
                     {%- if lcode == config.default_language -%}
                     <a href="{{ current_url | replace(from='/' ~ lang ~ '/', to = '/') | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ macros::translate(key="language_name", default="language_name", i18n=i18n_menu) }}</a>
                     {%- elif lang == config.default_language -%}
-                    <a href="{{ current_url | replace(from=config.base_url, to=config.base_url ~ "/" ~ lcode) | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ macros::translate(key="language_name", default="language_name", i18n=i18n_menu) }}</a>
+                    <a href="{{ current_url | replace(from=config.base_url, to=config.base_url ~ "/" ~ lcode) | safe }}{%- if uglyurls %}/index.html{%- endif %}">{{ macros::translate(key="language_name", default="language_name", i18n=i18n_menu) }}</a>
                     {%- else -%}
                     <a href="{{ current_url | replace(from='/' ~ lang ~ '/', to = '/' ~ lcode ~ '/') | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ macros::translate(key="language_name", default="language_name", i18n=i18n_menu) }}</a>
                     {%- endif -%}
@@ -98,10 +96,10 @@
           <div>
             <form autocomplete=off class="js" name="goSearch" id="searchbox">
               <div class="searchd">
-                <input id="searchinput" type="text" placeholder="{{ macros::translate(key="Search", default="Search", i18n=i18n) }}" title="Search"{% if config.extra.search_library %}{% if config.extra.search_library == "stork" %} data-stork="stork" {% endif %}{% endif %} />
+                <input id="searchinput" type="text" placeholder="{{ macros::translate(key="Search", default="Search", i18n=i18n) }}" title="Search"{% if config.extra.search_library == "stork" %} data-stork="stork"{% endif %} />
                 <button type="submit" title="Search" class="{%- if icon_search -%}{{ icon_search }}{%- else -%}si{%- endif -%}">{%- if not icon_search -%}&#8981;{%- endif -%}</button>
               </div>
-              <div class="results"><div id="suggestions"{% if config.extra.search_library %}{% if config.extra.search_library == "stork" %} data-stork="stork-output" {% endif %}{% endif %}></div></div>
+              <div class="results"><div id="suggestions"{% if config.extra.search_library == "stork" %} data-stork="stork-output"{% endif %}></div></div>
             </form>
           </div>
           {%- endif %}
