@@ -1,47 +1,71 @@
 +++
-title = "AI and Software Engineering: Transformation, Not Replacement"
-description = "Exploring how AI can help in software engineering"
-date = 2024-10-10
+title = "AI makes developers more valuable"
+description = "AI assists coding but hits limitations. Developers spend little time coding, focusing on maintenance, meetings, and management tasks instead."
+date = 2024-12-09
 draft = false
 
 [taxonomies]
-tags = ["Fintech", "Opinion", "AI"]
+tags = ["Opinion", "AI", "engineering"]
 
 [extra]
 toc = false
-thumbnail = "/images/ChatGPT.jpg"
+thumbnail = "/images/Pit_of_death.svg"
 +++
+The initial excitement of AI-assisted development is remarkable. Code scaffolding happens at lightning speed, and applications seem to materialize effortlessly. 
 
-{{img(src="/images/ChatGPT.jpg" alt="Ferris the Rustacean")}}
+{{img(src="/images/Pit_of_death.svg" alt="Pit of death")}}
 
-AI will replace software engineers, and we should start doing something else. At least, that is the current trend in quoting AI hypsters. Recently, even the NVIDIA CEO [said this](https://techwireasia.com/2024/03/nvidias-ceo-jensen-huang-ai-will-take-over-coding-making-learning-optional/). But in the end, he was more nuanced. He agrees that you still need foundational coding principles to make the code pairing with AI successful.
+Yet, as your codebase expands, you'll hit what developers call the "pit of death" - that critical point where AI-generated code becomes unreliable and troubleshooting grows increasingly complex. This transition from rapid development to maintenance challenges represents a fundamental shift in how we must approach AI-assisted coding.
 
-Besides, you still need these coding principles to guide the result successfully. People are also horrible at providing instructions on what they want. The hardest struggle I had was trying to get the details of what needed to be built. This is face-to-face, and I'm quite sure someone sitting in front of the input box of their LLM won't fare any better.
+<!-- more -->
 
-There is an even more significant issue when you share data and ideas with your online-hosted LLM system. Who owns the rights? We all know these LLM models are trained on copyrighted data and getting [sued](https://nytco-assets.nytimes.com/2023/12/NYT_Complaint_Dec2023.pdf) over it. OpenAI is now [claiming](https://www.theguardian.com/technology/2024/jan/08/ai-tools-chatgpt-copyrighted-material-openai) the great benefits of AI can only be reached using copyrighted data. Is your company okay with this kind of stance?
+## The Truth About Developer Time
+Developers actually spend just 52 minutes per day writing code. This isn't a sign of inefficiency - it's a reflection of software development's true nature. The reality is that coding represents only a fraction of a developer's responsibilities.
 
-Let's look into running our LLM on a model in-house. This way, we can feed it confidential information. To a certain degree, you are right. But information has access rights defined. This means maybe building different LLM pipelines based on this to make sure confidential information is not shared between people who shouldn't have access to it.
+| Activity | Time Allocation | Key Components |
+|----------|----------------|----------------|
+| Code Management | 35% | Version control, code review, documentation |
+| Meetings & Tasks | 23% | Planning, coordination, client communication |
+| Code Maintenance | 19% | Debugging, optimization, refactoring |
+| Testing | 12% | Unit tests, integration testing, QA |
+| Security Work | 4% | Vulnerability assessment, security patches |
 
-I am not claiming you should not use AI. But when implementing it in your company, be thoughtful about it. I am working in fintech, which is a heavily regulated domain, for example, regarding privacy. Before we blindly implement AI and LLMs, we need to work out a good plan. Maybe compliance will catch up and make your implementations illegal.
+## Effective AI Implementation
+Think of AI tools like self-driving cars - they're powerful but require constant human oversight. They excel in specific scenarios that leverage their strengths while minimizing their limitations.
 
-My recommendation is to explore the use of AI and LLMs. Start with a narrow band for experimentation to see where to extract value. Then, roll out thoughtfully, keeping in mind the confidentiality of data and who should be able to access it.
+**Rapid Prototyping**
+Quick iteration and concept testing where disposable code is acceptable. This allows teams to validate ideas rapidly without committing significant resources to potentially unviable solutions.
 
-Here is some food for thought:
+**Internal Tooling**
+Creating automation tools and connecting internal applications - tasks where AI's speed truly shines. These tools often don't require the same level of robustness as customer-facing applications.
 
-## The Evolving Role of Software Engineers
+**Focused Applications**
+Simple, single-purpose applications with clear boundaries and well-defined requirements make perfect candidates for AI assistance.
 
-As AI tools become more integrated into software development workflows, the role of software engineers is shifting rather than disappearing. While generative AI can automate repetitive tasks like code generation and bug detection, it lacks the creativity and problem-solving skills inherent to human engineers. Software engineers will increasingly focus on higher-level tasks such as system architecture and user experience design—areas where human intuition and ethical considerations are paramount [1](https://amaris.com/insights/amaris-in-action/how-ai-is-redefining-software-engineering-for-a-digital-future/) [2](https://tech4th.com/how-ai-is-transforming-software-engineering/).
+## Current Challenges
 
-## The Necessity of Human Oversight
+**Poor Specifications**
+The age-old challenge of vague requirements persists. When clients say "you're the expert, do what's best" only to change requirements later, it creates technical debt that even AI can't fix. This becomes particularly problematic as AI-generated code bases grow larger and more complex.
 
-Even as AI systems become more sophisticated, they still require human oversight to ensure quality and alignment with project goals. The nuances of human language and context remain challenging for AI; thus, engineers must continue to provide direction and context that AI cannot inherently understand. This oversight is especially critical in sensitive fields like fintech, where compliance with regulations and ethical standards is non-negotiable [4](https://brainhub.eu/library/software-developer-age-of-ai).
+**Testing Reality**
+While AI excels at generating unit and integration tests, real user testing remains crucial. AI helps validate concepts quickly, but actual user experience testing is irreplaceable. The human element in testing cannot be automated away, as it requires understanding context and user behavior in ways that AI currently cannot match.
 
-## Intellectual Property Concerns
+## Future Opportunities
 
-The question of intellectual property rights in AI-generated content remains unresolved. Companies must tread carefully when using AI tools trained on copyrighted materials [5](https://www.forbes.com/councils/forbestechcouncil/2023/04/24/how-ai-can-transform-the-software-engineering-process/). Understanding who owns the output generated by these systems is crucial for safeguarding proprietary information and avoiding legal pitfalls.
+**CSS and Design Evolution**
+The next frontier for AI lies in transforming design implementation, potentially revolutionizing how we handle frontend development:
+- Converting Figma designs to HTML/CSS automatically with perfect fidelity
+- Streamlining corporate website updates without developer intervention
+- Implementing style changes efficiently across entire applications
+- Managing responsive design implementations automatically
+- Handling cross-browser compatibility issues
 
-## Strategic Implementation of AI
+**Automation and Integration**
+The future holds promise for comprehensive no-code solutions that could handle:
+- Automated A/B testing implementation
+- SEO optimization across entire sites
+- Analytics integration and reporting
+- Performance optimization
+- Content management system integration
 
-When considering the implementation of AI tools within an organization, a strategic approach is essential. Companies should start small—experimenting with specific applications before scaling up [6](https://www.forbes.com/councils/forbestechcouncil/2024/06/0). This allows organizations to measure effectiveness while ensuring that data confidentiality is maintained.
-
-In conclusion, while AI will undoubtedly change the landscape of software engineering, it does not signify an end for human engineers but rather a transformation of their roles. By embracing this shift thoughtfully and strategically, companies can leverage AI's capabilities while safeguarding their interests and maintaining ethical standards in technology development.
+While AI tools continue to evolve, the key to successful implementation lies in understanding their appropriate use cases and limitations. The future of development isn't about replacing developers but augmenting their capabilities with AI tools that handle routine tasks while allowing humans to focus on complex problem-solving and creative solutions.

@@ -11,9 +11,11 @@ tags = ["Opinion", "AI"]
 toc = false
 +++
 
+{{img(src="/images/nobel-prize.jpg" alt="Medal for AI nobel prize")}}
+
 The [Nobel Prize in Physics was recently awarded](https://www.reuters.com/science/hopfield-hinton-win-2024-nobel-prize-physics-2024-10-08/) to pioneers in AI, sparking diverse reactions online. Some have celebrated it as a historic step, while others question whether AI even belongs in the realm of physics. This debate touches on the boundaries between scientific disciplines and how foundational research is evolving.
 
-{{img(src="/images/nobel-prize.jpg" alt="Medal for AI nobel prize")}}
+<!-- more -->
 
 As someone passionate about philosophy, I find this discussion thought-provoking. Philosophy grapples with foundational questions—what exists, what we know, and how we ought to live—while physics delves into the mysteries of the universe, from subatomic particles to galaxies. Together, these fields share a history of exploring existence, each contributing to the other over centuries.
 
