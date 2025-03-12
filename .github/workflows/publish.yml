@@ -1,28 +1,41 @@
-name: Build and Publish to AWS
+name: Deploy Zola site to AWS S3
+
 on:
+  # Runs on pushes targeting the default branch
   push:
-    branches:
-      - main
+    branches: ["master"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 jobs:
-  run:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v3
-      - uses: taiki-e/install-action@v2
-        with:
-          tool: zola@0.17.2
-      - name: Build
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Install Zola
+        run: |
+          wget -qO- https://github.com/getzola/zola/releases/download/v0.17.2/zola-v0.17.2-x86_64-unknown-linux-gnu.tar.gz | tar xz
+          chmod +x zola
+          mv zola /usr/local/bin
+      
+      - name: Build with Zola
         run: zola build
-      - uses: reggionick/s3-deploy@v4
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
         with:
-          folder: public
-          bucket: ${{ secrets.S3_BUCKET }}
-          private: true
-          bucket-region: us-east-1
-          # Use the next two only if you have created a CloudFront distribution
-          dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
-          invalidation: /*
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      
+      - name: Deploy to S3
+        run: |
+          aws s3 sync ./public s3://${{ secrets.S3_BUCKET }} --delete
+      
+      # Optional: Invalidate CloudFront cache if you have a CloudFront distribution
+      - name: Invalidate CloudFront (Optional)
+        if: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID != '' }}
+        run: |
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
