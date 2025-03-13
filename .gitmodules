@@ -1,13 +1,4 @@
 
-[submodule "themes/zola-bearblog"]
-    path = themes/zola-bearblog
-    url = https://codeberg.org/alanpearce/zola-bearblog
-[submodule "themes/apollo"]
-    path = themes/apollo
-    url = https://github.com/not-matthias/apollo
-[submodule "themes/papaya"]
-	path = themes/papaya
-	url = https://github.com/justint/papaya.git
 [submodule "themes/abridge"]
 	path = themes/abridge
 	url = https://github.com/jieiku/abridge.git
