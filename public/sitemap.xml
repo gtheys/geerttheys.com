@@ -2,10 +2,30 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/posts/first_post/</loc><lastmod>2025-04-20T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/tags/html/</loc><lastmod>2025-04-20T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/tags/markdown/</loc><lastmod>2025-04-20T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2025-04-20T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2025-04-20T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/tags/</loc><lastmod>2025-04-20T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/categories/</loc></url></urlset>
+            <loc>http://localhost:1313/posts/digital-independence/</loc><lastmod>2025-02-25T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/digital-independence/</loc><lastmod>2025-02-25T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/opinion/</loc><lastmod>2025-02-25T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2025-02-25T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2025-02-25T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/</loc><lastmod>2025-02-25T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/ai/</loc><lastmod>2025-01-30T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/engineering/</loc><lastmod>2025-01-30T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/llm-evaluation-frameworks/</loc><lastmod>2025-01-30T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/my-journey-with-ai-coding-assistants/</loc><lastmod>2025-01-17T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/ai-and-software-engineering/</loc><lastmod>2024-12-09T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/exploring-ai-assisted-development/</loc><lastmod>2024-11-25T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/exploring-the-limits-of-language-models-a-deep-dive/</loc><lastmod>2024-11-18T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/frameworks-for-evaluating-llms/</loc><lastmod>2024-10-28T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/nobel-price-for-ai/</loc><lastmod>2024-10-11T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/ai-makes-developers-more-valuable/</loc><lastmod>2024-10-10T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/fintech/</loc><lastmod>2024-10-10T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/financial-inclusion-in-asia/</loc><lastmod>2024-07-12T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/neobanks/</loc><lastmod>2024-07-12T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/smartdev/</loc><lastmod>2024-07-12T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/ai-blockchain-in-fintech/</loc><lastmod>2024-04-17T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/open-banking/</loc><lastmod>2024-04-05T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/digitalisation-in-fintech/</loc><lastmod>2024-03-25T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/images/</loc></url><url>
+            <loc>http://localhost:1313/categories/</loc></url><url>
+            <loc>http://localhost:1313/tags/html/</loc></url><url>
+            <loc>http://localhost:1313/tags/markdown/</loc></url></urlset>

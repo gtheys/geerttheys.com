@@ -3,14 +3,12 @@ title = 'AI & Blockchain in Fintech (video)'
 description = 'SmartDev branded video about Fintech topics'
 date = 2024-04-17
 draft = false
+authors = ["Geert Theys"]
 
 tags = ["Fintech", "Smartdev", "AI"]
-
-keywords = "Video"
-toc = false
 +++
 
-{{ youtube(id="crmubD7OUiI") }}
+{{<youtube crmubD7OUiI>}}
 
 **Some of the topics I cover during this episode:**
 

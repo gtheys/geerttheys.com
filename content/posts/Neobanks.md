@@ -3,14 +3,12 @@ title = 'NeoBanks (video)'
 description = 'SmartDev branded video about Fintech topics'
 date = 2024-07-12
 draft = false
+authors = ["Geert Theys"]
 
 tags = ["Fintech", "Smartdev"]
-
-keywords = "Video"
-toc = false
 +++
 
-{{ youtube(id="t_qNPgIpvHU") }}
+{{<youtube t_qNPgIpvHU>}}
 
 **Some of the topics I cover during this episode:**
 

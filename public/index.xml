@@ -3,14 +3,121 @@
         <title>select * from random_thoughts</title>
         <link>http://localhost:1313/</link>
         <description>select * from random_thoughts</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 20 Apr 2025 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 25 Feb 2025 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>First_post</title>
-    <link>http://localhost:1313/posts/first_post/</link>
-    <pubDate>Sun, 20 Apr 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/first_post/</guid>
-    <description><![CDATA[<p>Twst this shit</p>]]></description>
+    <title> Digital Independence: A Journey Through Tech Sovereignty</title>
+    <link>http://localhost:1313/posts/digital-independence/</link>
+    <pubDate>Tue, 25 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+                    <name>Geert Theys</name>
+                </author><guid>http://localhost:1313/posts/digital-independence/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/arch-laptops.webp" referrerpolicy="no-referrer">
+            </div><p>This is off-topic from my usual content, but recent geopolitical shifts have fundamentally altered how I engage with technology. It&rsquo;s no longer just about convenience versus principles; It feels like we&rsquo;re reaching an inflection point in <a href="https://en.wikipedia.org/wiki/Digital_sovereignty" target="_blank" rel="noopener noreferrer">digital sovereignty</a>.</p>
+<p>My tech journey began in the mid-90s when I was scraping by. While friends upgraded to <a href="https://en.wikipedia.org/wiki/Pentium_III" target="_blank" rel="noopener noreferrer">Pentium IIIs</a>, I nursed a used <a href="https://en.wikipedia.org/wiki/Pentium" target="_blank" rel="noopener noreferrer">Pentium 133MHz</a> with a monitor pulled from corporate dumpster. Paying $100 for <a href="https://en.wikipedia.org/wiki/Windows_95" target="_blank" rel="noopener noreferrer">Windows 95</a>? Unthinkable. <a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer">Linux</a> became my lifeline - not just economically, but educationally. Those <a href="https://en.wikipedia.org/wiki/Man_page" target="_blank" rel="noopener noreferrer">man pages</a> and <a href="http://www.slackware.com/" target="_blank" rel="noopener noreferrer">Slackware</a> floppies taught me more than any certification program ever could. The freedom to modify and share code wasn&rsquo;t philosophy; It was survival.</p>]]></description>
+</item><item>
+    <title>The Reality Check on LLM Evaluation Frameworks</title>
+    <link>http://localhost:1313/posts/llm-evaluation-frameworks/</link>
+    <pubDate>Thu, 30 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+                    <name>Geert Theys</name>
+                </author><guid>http://localhost:1313/posts/llm-evaluation-frameworks/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/x1.png" referrerpolicy="no-referrer">
+            </div><p>We&rsquo;ve all seen charts like this where models like <a href="https://deepseek.ai/" target="_blank" rel="noopener noreferrer">DeepSeek</a> challenge <a href="https://openai.com/" target="_blank" rel="noopener noreferrer">OpenAI&rsquo;s</a> latest offerings. These comparisons rely on <a href="https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard" target="_blank" rel="noopener noreferrer">standardized tests</a> to demonstrate capabilities.</p>
+<figure><a class="lightgallery" href="/images/1738162067353.jpg" title="" data-thumbnail="/images/1738162067353.jpg" data-sub-html="<h2>Another Graph for deepseek performance</h2>"><img  loading="lazy" src='/images/1738162067353.jpg'     ></a><figcaption class="image-caption">Another Graph for deepseek performance</figcaption>
+    </figure>
+<p>As someone tracking the evolution of <a href="https://github.com/EleutherAI/lm-evaluation-harness" target="_blank" rel="noopener noreferrer">LLM evaluation frameworks</a>, I&rsquo;ve noticed a concerning pattern: we&rsquo;re falling into the same trap we have with traditional education. Just like students who excel at <a href="https://en.wikipedia.org/wiki/Standardized_test" target="_blank" rel="noopener noreferrer">standardized testing</a>, LLMs are being optimized for <a href="https://paperswithcode.com/task/language-modelling" target="_blank" rel="noopener noreferrer">benchmark performance</a> rather than practical problem-solving.</p>]]></description>
+</item><item>
+    <title>My Journey with AI Coding Assistants</title>
+    <link>http://localhost:1313/posts/my-journey-with-ai-coding-assistants/</link>
+    <pubDate>Fri, 17 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+                    <name>Geert Theys</name>
+                </author><guid>http://localhost:1313/posts/my-journey-with-ai-coding-assistants/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/conductor.jpg" referrerpolicy="no-referrer">
+            </div><p>After months of coding with <a href="https://en.wikipedia.org/wiki/Large_language_model" target="_blank" rel="noopener noreferrer">LLMs</a>, I&rsquo;ve finally gathered enough experience to share my thoughts on how these tools are changing our field.</p>
+<p>The Tools I&rsquo;ve Played With
+I&rsquo;ve mainly used <a href="https://github.com/paul-gauthier/aider" target="_blank" rel="noopener noreferrer">AIDER</a>, <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">VSCode</a> with <a href="https://github.com/celine-s-wang/cline" target="_blank" rel="noopener noreferrer">Cline</a> and <a href="https://continue.dev/" target="_blank" rel="noopener noreferrer">Continue</a>. I quickly dropped Continue since it didn&rsquo;t work with <a href="https://github.com/topics/local-llm" target="_blank" rel="noopener noreferrer">local LLMs</a> - and I&rsquo;m big on privacy, so local LLMs are my thing. I do pay for <a href="https://openrouter.ai/" target="_blank" rel="noopener noreferrer">openrouter</a> as I can experiment with online models. My preferred model would be <a href="https://www.anthropic.com/claude" target="_blank" rel="noopener noreferrer">Claude Sonnet</a>.</p>]]></description>
+</item><item>
+    <title>AI makes developers more valuable</title>
+    <link>http://localhost:1313/posts/ai-and-software-engineering/</link>
+    <pubDate>Mon, 09 Dec 2024 00:00:00 &#43;0000</pubDate><author>
+                    <name>Geert Theys</name>
+                </author><guid>http://localhost:1313/posts/ai-and-software-engineering/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/Pit_of_death.svg" referrerpolicy="no-referrer">
+            </div><p>The initial excitement of AI-assisted development is remarkable. Code scaffolding happens at lightning speed, and applications seem to materialize effortlessly.</p>
+<p>Yet, as your codebase expands, you&rsquo;ll hit what developers call the &ldquo;pit of death&rdquo; - that critical point where AI-generated code becomes unreliable and troubleshooting grows increasingly complex. This transition from rapid development to maintenance challenges represents a fundamental shift in how we must approach AI-assisted coding.</p>
+<h2 id="the-truth-about-developer-time" class="headerLink">
+    <a href="#the-truth-about-developer-time" class="header-mark"></a>The Truth About Developer Time</h2><p>Developers actually spend just 52 minutes per day writing code. This isn&rsquo;t a sign of inefficiency - it&rsquo;s a reflection of software development&rsquo;s true nature. The reality is that coding represents only a fraction of a developer&rsquo;s responsibilities.</p>]]></description>
+</item><item>
+    <title>Exploring AI-Assisted Development: A Journey with My Side Project</title>
+    <link>http://localhost:1313/posts/exploring-ai-assisted-development/</link>
+    <pubDate>Mon, 25 Nov 2024 00:00:00 &#43;0000</pubDate><author>
+                    <name>Geert Theys</name>
+                </author><guid>http://localhost:1313/posts/exploring-ai-assisted-development/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/Aider.jpg" referrerpolicy="no-referrer">
+            </div><p>I decided to dive back into machine learning through a hobby project, leveraging AI tools for development and deployment. Here&rsquo;s what I learned along the way.</p>
+<h2 id="development-environment-and-tools" class="headerLink">
+    <a href="#development-environment-and-tools" class="header-mark"></a>Development Environment and Tools</h2><p><strong>AI Assistant Setup</strong>
+I primarily worked with aider-chat and Anthropic&rsquo;s Claude model. Due to API rate limits, I switched to openrouter for Claude access. While Ollama was an option, its limited context window proved challenging - even with the <code>--map-tokens 1024</code> parameter adjustment.</p>]]></description>
+</item><item>
+    <title>Exploring the Limits of Language Models: A Deep Dive</title>
+    <link>http://localhost:1313/posts/exploring-the-limits-of-language-models-a-deep-dive/</link>
+    <pubDate>Mon, 18 Nov 2024 00:00:00 &#43;0000</pubDate><author>
+                    <name>Geert Theys</name>
+                </author><guid>http://localhost:1313/posts/exploring-the-limits-of-language-models-a-deep-dive/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/deep-dive.jpg" referrerpolicy="no-referrer">
+            </div><p>Hey everyone! I recently came across an intriguing study titled <a href="https://arxiv.org/abs/2306.12213" target="_blank" rel="noopener noreferrer">&ldquo;Limits for Learning with Language Models&rdquo;</a> by Nicholas Asher and colleagues, and I couldn&rsquo;t help but share some insights. This paper dives into the capabilities and limitations of large language models (LLMs) in understanding linguistic meaning—an area that’s crucial as we increasingly rely on these models for various applications.</p>
+<p><strong>Key Takeaways</strong></p>
+<p>The authors argue that while LLMs have made remarkable strides in natural language processing, they fall short in grasping essential semantic concepts, particularly universal quantification. Here are some highlights:</p>]]></description>
+</item><item>
+    <title>Taming the AI Beast - A Deep Dive into LLM Testing Methods</title>
+    <link>http://localhost:1313/posts/frameworks-for-evaluating-llms/</link>
+    <pubDate>Mon, 28 Oct 2024 00:00:00 &#43;0000</pubDate><author>
+                    <name>Geert Theys</name>
+                </author><guid>http://localhost:1313/posts/frameworks-for-evaluating-llms/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/Intelligent_Contemplative_Person_LLM_Evaluation.png" referrerpolicy="no-referrer">
+            </div><p>AI and language models have exploded onto the scene, offering solutions for all sorts of tasks. But here&rsquo;s the thing - they&rsquo;re not perfect. These models can hallucinate or make stuff up, which is a problem. So how do we figure out if they&rsquo;re actually useful for our needs? That&rsquo;s where LLM testing comes in.</p>
+<p>In today&rsquo;s AI-driven world, understanding how we evaluate these powerful language models is crucial. It&rsquo;s not just about impressive outputs; it&rsquo;s about reliability, accuracy, and real-world applicability. Let&rsquo;s break down some of the main testing methods and see what they bring to the table.</p>]]></description>
+</item><item>
+    <title>Nobel Prize in physics for AI</title>
+    <link>http://localhost:1313/posts/nobel-price-for-ai/</link>
+    <pubDate>Fri, 11 Oct 2024 00:00:00 &#43;0000</pubDate><author>
+                    <name>Geert Theys</name>
+                </author><guid>http://localhost:1313/posts/nobel-price-for-ai/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/nobel-prize.jpg" referrerpolicy="no-referrer">
+            </div><p>The <a href="https://www.reuters.com/science/hopfield-hinton-win-2024-nobel-prize-physics-2024-10-08/" target="_blank" rel="noopener noreferrer">Nobel Prize in Physics was recently awarded</a> to pioneers in AI, sparking diverse reactions online. Some have celebrated it as a historic step, while others question whether AI even belongs in the realm of physics. This debate touches on the boundaries between scientific disciplines and how foundational research is evolving.</p>
+<p>As someone passionate about philosophy, I find this discussion thought-provoking. Philosophy grapples with foundational questions—what exists, what we know, and how we ought to live—while physics delves into the mysteries of the universe, from subatomic particles to galaxies. Together, these fields share a history of exploring existence, each contributing to the other over centuries.</p>]]></description>
+</item><item>
+    <title>AI and Software Engineering: Transformation, Not Replacement</title>
+    <link>http://localhost:1313/posts/ai-makes-developers-more-valuable/</link>
+    <pubDate>Thu, 10 Oct 2024 00:00:00 &#43;0000</pubDate><author>
+                    <name>Geert Theys</name>
+                </author><guid>http://localhost:1313/posts/ai-makes-developers-more-valuable/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/ChatGPT.jpg" referrerpolicy="no-referrer">
+            </div><p>AI will replace software engineers, and we should start doing something else. At least, that is the current trend in quoting AI hypsters. Recently, even the NVIDIA CEO <a href="https://techwireasia.com/2024/03/nvidias-ceo-jensen-huang-ai-will-take-over-coding-making-learning-optional/" target="_blank" rel="noopener noreferrer">said this</a>. But in the end, he was more nuanced. He agrees that you still need foundational coding principles to make the code pairing with AI successful.</p>
+<p>Besides, you still need these coding principles to guide the result successfully. People are also horrible at providing instructions on what they want. The hardest struggle I had was trying to get the details of what needed to be built. This is face-to-face, and I&rsquo;m quite sure someone sitting in front of the input box of their LLM won&rsquo;t fare any better.</p>]]></description>
+</item><item>
+    <title>Financial Inclusion In Asia (video)</title>
+    <link>http://localhost:1313/posts/financial-inclusion-in-asia/</link>
+    <pubDate>Fri, 12 Jul 2024 00:00:00 &#43;0000</pubDate><author>
+                    <name>Geert Theys</name>
+                </author><guid>http://localhost:1313/posts/financial-inclusion-in-asia/</guid>
+    <description><![CDATA[<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/DKMyVVhQcRM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p><strong>Some of the topics I cover during this episode:</strong></p>
+<ul>
+<li>The current landscape of financial inclusion in Asia</li>
+<li>Challenges and opportunities for bringing financial services to everyone</li>
+<li>How Fintech is driving innovation and progress in this crucial area</li>
+</ul>]]></description>
 </item></channel>
 </rss>

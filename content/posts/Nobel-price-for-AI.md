@@ -3,13 +3,11 @@ title = 'Nobel Prize in physics for AI'
 description = 'My 2cents on this topic'
 date = 2024-10-11
 draft = false
+authors = ["Geert Theys"]
+featuredImage = '/images/nobel-prize.jpg'
 
 tags = ["Opinion", "AI"]
-
-toc = false
 +++
-
-{{img(src="/images/nobel-prize.jpg" alt="Medal for AI nobel prize")}}
 
 The [Nobel Prize in Physics was recently awarded](https://www.reuters.com/science/hopfield-hinton-win-2024-nobel-prize-physics-2024-10-08/) to pioneers in AI, sparking diverse reactions online. Some have celebrated it as a historic step, while others question whether AI even belongs in the realm of physics. This debate touches on the boundaries between scientific disciplines and how foundational research is evolving.
 

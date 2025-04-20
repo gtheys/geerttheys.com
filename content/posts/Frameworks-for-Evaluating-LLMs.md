@@ -3,14 +3,11 @@ title = 'Taming the AI Beast - A Deep Dive into LLM Testing Methods'
 descriptson = 'First installment into a deepdive how do we test LLMs and how much do they mean in ranking'
 date = 2024-10-28
 draft = false
+authors = ["Geert Theys"]
+featuredImage = '/images/Intelligent_Contemplative_Person_LLM_Evaluation.png'
 
 tags = ["Opinion", "AI"]
-
-[extra]
-toc = true
 +++
-
-{{img(src="/images/Intelligent_Contemplative_Person_LLM_Evaluation.png" alt="Medal for AI nobel prize")}}
 
 AI and language models have exploded onto the scene, offering solutions for all sorts of tasks. But here's the thing - they're not perfect. These models can hallucinate or make stuff up, which is a problem. So how do we figure out if they're actually useful for our needs? That's where LLM testing comes in.
 

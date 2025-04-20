@@ -3,15 +3,12 @@ title = 'Exploring AI-Assisted Development: A Journey with My Side Project'
 description = 'Exploring AI-assisted development through a real project: insights on tools, challenges, and practical limitations when coding with AI assistants.'
 date = 2024-11-25
 draft = false
+authors = ["Geert Theys"]
+featuredImage = '/images/Aider.jpg'
 
 tags = ["AI"]
 
-[extra]
-toc = true
-thumbnail = "/images/Aider.jpg"
 +++
-
-{{img(src="/images/Aider.jpg" alt="Screenshot of Aider CLI")}}
 
 I decided to dive back into machine learning through a hobby project, leveraging AI tools for development and deployment. Here's what I learned along the way.
 

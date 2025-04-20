@@ -3,14 +3,11 @@ title = ' Digital Independence: A Journey Through Tech Sovereignty'
 description = 'One users journey from budget Linux enthusiast to unwitting Google captive, now reclaiming digital sovereignty through privacy-focused alternatives like ProtonMail, GrapheneOS, and Nextcloud. Discover how geopolitical shifts and corporate surveillance are pushing tech veterans back to their open-source roots—trading convenience for control in an era of eroding digital rights.'
 date = 2025-02-25
 draft = false
-
+authors = ["Geert Theys"]
+featuredImage = '/images/arch-laptops.webp'
 tags = ["Opinion", "digital-independence"]
 
-toc = false
-thumbnail = "/imagesarch-laptops.webp"
 +++
-
-{{img(src="/images/arch-laptops.webp" alt="My 2 laptops running arch linux")}}
 
 This is off-topic from my usual content, but recent geopolitical shifts have fundamentally altered how I engage with technology. It's no longer just about convenience versus principles; It feels like we're reaching an inflection point in [digital sovereignty](https://en.wikipedia.org/wiki/Digital_sovereignty).
 

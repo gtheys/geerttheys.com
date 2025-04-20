@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on select * from random_thoughts</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <description>Recent content in AI on select * from random_thoughts</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Reality Check on LLM Evaluation Frameworks</title>
+      <link>http://localhost:1313/posts/llm-evaluation-frameworks/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/llm-evaluation-frameworks/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve all seen charts like this where models like &lt;a href=&#34;https://deepseek.ai/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;DeepSeek&lt;/a&gt; challenge &lt;a href=&#34;https://openai.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;OpenAI&amp;rsquo;s&lt;/a&gt; latest offerings. These comparisons rely on &lt;a href=&#34;https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;standardized tests&lt;/a&gt; to demonstrate capabilities.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;a class=&#34;lightgallery&#34; href=&#34;http://localhost:1313/images/1738162067353.jpg&#34; title=&#34;&#34; data-thumbnail=&#34;/images/1738162067353.jpg&#34; data-sub-html=&#34;&lt;h2&gt;Another Graph for deepseek performance&lt;/h2&gt;&#34;&gt;&lt;img  loading=&#34;lazy&#34; src=&#39;http://localhost:1313/images/1738162067353.jpg&#39;     &gt;&lt;/a&gt;&lt;figcaption class=&#34;image-caption&#34;&gt;Another Graph for deepseek performance&lt;/figcaption&gt;&#xA;    &lt;/figure&gt;&#xA;&lt;p&gt;As someone tracking the evolution of &lt;a href=&#34;https://github.com/EleutherAI/lm-evaluation-harness&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;LLM evaluation frameworks&lt;/a&gt;, I&amp;rsquo;ve noticed a concerning pattern: we&amp;rsquo;re falling into the same trap we have with traditional education. Just like students who excel at &lt;a href=&#34;https://en.wikipedia.org/wiki/Standardized_test&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;standardized testing&lt;/a&gt;, LLMs are being optimized for &lt;a href=&#34;https://paperswithcode.com/task/language-modelling&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;benchmark performance&lt;/a&gt; rather than practical problem-solving.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Journey with AI Coding Assistants</title>
+      <link>http://localhost:1313/posts/my-journey-with-ai-coding-assistants/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-journey-with-ai-coding-assistants/</guid>
+      <description>&lt;p&gt;After months of coding with &lt;a href=&#34;https://en.wikipedia.org/wiki/Large_language_model&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;LLMs&lt;/a&gt;, I&amp;rsquo;ve finally gathered enough experience to share my thoughts on how these tools are changing our field.&lt;/p&gt;&#xA;&lt;p&gt;The Tools I&amp;rsquo;ve Played With&#xA;I&amp;rsquo;ve mainly used &lt;a href=&#34;https://github.com/paul-gauthier/aider&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;AIDER&lt;/a&gt;, &lt;a href=&#34;https://code.visualstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;VSCode&lt;/a&gt; with &lt;a href=&#34;https://github.com/celine-s-wang/cline&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Cline&lt;/a&gt; and &lt;a href=&#34;https://continue.dev/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Continue&lt;/a&gt;. I quickly dropped Continue since it didn&amp;rsquo;t work with &lt;a href=&#34;https://github.com/topics/local-llm&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;local LLMs&lt;/a&gt; - and I&amp;rsquo;m big on privacy, so local LLMs are my thing. I do pay for &lt;a href=&#34;https://openrouter.ai/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;openrouter&lt;/a&gt; as I can experiment with online models. My preferred model would be &lt;a href=&#34;https://www.anthropic.com/claude&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Claude Sonnet&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI makes developers more valuable</title>
+      <link>http://localhost:1313/posts/ai-and-software-engineering/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-and-software-engineering/</guid>
+      <description>&lt;p&gt;The initial excitement of AI-assisted development is remarkable. Code scaffolding happens at lightning speed, and applications seem to materialize effortlessly.&lt;/p&gt;&#xA;&lt;p&gt;Yet, as your codebase expands, you&amp;rsquo;ll hit what developers call the &amp;ldquo;pit of death&amp;rdquo; - that critical point where AI-generated code becomes unreliable and troubleshooting grows increasingly complex. This transition from rapid development to maintenance challenges represents a fundamental shift in how we must approach AI-assisted coding.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-truth-about-developer-time&#34; class=&#34;headerLink&#34;&gt;&#xA;    &lt;a href=&#34;#the-truth-about-developer-time&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;The Truth About Developer Time&lt;/h2&gt;&lt;p&gt;Developers actually spend just 52 minutes per day writing code. This isn&amp;rsquo;t a sign of inefficiency - it&amp;rsquo;s a reflection of software development&amp;rsquo;s true nature. The reality is that coding represents only a fraction of a developer&amp;rsquo;s responsibilities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exploring AI-Assisted Development: A Journey with My Side Project</title>
+      <link>http://localhost:1313/posts/exploring-ai-assisted-development/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/exploring-ai-assisted-development/</guid>
+      <description>&lt;p&gt;I decided to dive back into machine learning through a hobby project, leveraging AI tools for development and deployment. Here&amp;rsquo;s what I learned along the way.&lt;/p&gt;&#xA;&lt;h2 id=&#34;development-environment-and-tools&#34; class=&#34;headerLink&#34;&gt;&#xA;    &lt;a href=&#34;#development-environment-and-tools&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Development Environment and Tools&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;AI Assistant Setup&lt;/strong&gt;&#xA;I primarily worked with aider-chat and Anthropic&amp;rsquo;s Claude model. Due to API rate limits, I switched to openrouter for Claude access. While Ollama was an option, its limited context window proved challenging - even with the &lt;code&gt;--map-tokens 1024&lt;/code&gt; parameter adjustment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exploring the Limits of Language Models: A Deep Dive</title>
+      <link>http://localhost:1313/posts/exploring-the-limits-of-language-models-a-deep-dive/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/exploring-the-limits-of-language-models-a-deep-dive/</guid>
+      <description>&lt;p&gt;Hey everyone! I recently came across an intriguing study titled &lt;a href=&#34;https://arxiv.org/abs/2306.12213&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Limits for Learning with Language Models&amp;rdquo;&lt;/a&gt; by Nicholas Asher and colleagues, and I couldn&amp;rsquo;t help but share some insights. This paper dives into the capabilities and limitations of large language models (LLMs) in understanding linguistic meaning—an area that’s crucial as we increasingly rely on these models for various applications.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key Takeaways&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The authors argue that while LLMs have made remarkable strides in natural language processing, they fall short in grasping essential semantic concepts, particularly universal quantification. Here are some highlights:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Taming the AI Beast - A Deep Dive into LLM Testing Methods</title>
+      <link>http://localhost:1313/posts/frameworks-for-evaluating-llms/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/frameworks-for-evaluating-llms/</guid>
+      <description>&lt;p&gt;AI and language models have exploded onto the scene, offering solutions for all sorts of tasks. But here&amp;rsquo;s the thing - they&amp;rsquo;re not perfect. These models can hallucinate or make stuff up, which is a problem. So how do we figure out if they&amp;rsquo;re actually useful for our needs? That&amp;rsquo;s where LLM testing comes in.&lt;/p&gt;&#xA;&lt;p&gt;In today&amp;rsquo;s AI-driven world, understanding how we evaluate these powerful language models is crucial. It&amp;rsquo;s not just about impressive outputs; it&amp;rsquo;s about reliability, accuracy, and real-world applicability. Let&amp;rsquo;s break down some of the main testing methods and see what they bring to the table.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nobel Prize in physics for AI</title>
+      <link>http://localhost:1313/posts/nobel-price-for-ai/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/nobel-price-for-ai/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://www.reuters.com/science/hopfield-hinton-win-2024-nobel-prize-physics-2024-10-08/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Nobel Prize in Physics was recently awarded&lt;/a&gt; to pioneers in AI, sparking diverse reactions online. Some have celebrated it as a historic step, while others question whether AI even belongs in the realm of physics. This debate touches on the boundaries between scientific disciplines and how foundational research is evolving.&lt;/p&gt;&#xA;&lt;p&gt;As someone passionate about philosophy, I find this discussion thought-provoking. Philosophy grapples with foundational questions—what exists, what we know, and how we ought to live—while physics delves into the mysteries of the universe, from subatomic particles to galaxies. Together, these fields share a history of exploring existence, each contributing to the other over centuries.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI and Software Engineering: Transformation, Not Replacement</title>
+      <link>http://localhost:1313/posts/ai-makes-developers-more-valuable/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-makes-developers-more-valuable/</guid>
+      <description>&lt;p&gt;AI will replace software engineers, and we should start doing something else. At least, that is the current trend in quoting AI hypsters. Recently, even the NVIDIA CEO &lt;a href=&#34;https://techwireasia.com/2024/03/nvidias-ceo-jensen-huang-ai-will-take-over-coding-making-learning-optional/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;said this&lt;/a&gt;. But in the end, he was more nuanced. He agrees that you still need foundational coding principles to make the code pairing with AI successful.&lt;/p&gt;&#xA;&lt;p&gt;Besides, you still need these coding principles to guide the result successfully. People are also horrible at providing instructions on what they want. The hardest struggle I had was trying to get the details of what needed to be built. This is face-to-face, and I&amp;rsquo;m quite sure someone sitting in front of the input box of their LLM won&amp;rsquo;t fare any better.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Financial Inclusion In Asia (video)</title>
+      <link>http://localhost:1313/posts/financial-inclusion-in-asia/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/financial-inclusion-in-asia/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/DKMyVVhQcRM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Some of the topics I cover during this episode:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The current landscape of financial inclusion in Asia&lt;/li&gt;&#xA;&lt;li&gt;Challenges and opportunities for bringing financial services to everyone&lt;/li&gt;&#xA;&lt;li&gt;How Fintech is driving innovation and progress in this crucial area&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>AI &amp; Blockchain in Fintech (video)</title>
+      <link>http://localhost:1313/posts/ai-blockchain-in-fintech/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-blockchain-in-fintech/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/crmubD7OUiI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Some of the topics I cover during this episode:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Understanding AI &amp;amp; Blockchain: Demystify these cutting-edge technologies and their potential to revolutionize financial services.&lt;/li&gt;&#xA;&lt;li&gt;AI and Blockchain Applications in Fintech: Discover innovative use cases across various financial sectors, from fraud detection and risk management to automated wealth management and streamlined payments.&lt;/li&gt;&#xA;&lt;li&gt;Challenges and Opportunities: Explore the roadblocks hindering wider adoption and uncover the exciting possibilities that lie ahead.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

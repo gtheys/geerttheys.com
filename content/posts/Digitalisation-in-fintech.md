@@ -3,13 +3,12 @@ title = "Digitalisation in Fintech (video)"
 description = "SmartDev branded video about Fintech topics"
 date = 2024-03-25
 draft = false
-
+authors = ["Geert Theys"]
 tags = ["Fintech", "Smartdev"]
 
-toc = false
 +++
 
-{{ youtube(id="btQFAAXRMso") }}
+{{<youtube btQFAAXRMso>}}
 
 **Some of the topics I cover during this episode:**
 

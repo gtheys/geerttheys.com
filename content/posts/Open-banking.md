@@ -3,14 +3,12 @@ title = 'Open Banking (video)'
 description = 'SmartDev branded video about Fintech topics'
 date = 2024-04-05
 draft = false
+authors = ["Geert Theys"]
 
 tags = ["Fintech", "Smartdev"]
-
-keywords = "Video"
-toc = false
 +++
 
-{{ youtube(id="9jrLctZJE8c") }}
+{{<youtube 9jrLctZJE8c>}}
 
 **Some of the topics I cover during this episode:**
 

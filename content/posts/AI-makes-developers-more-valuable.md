@@ -4,13 +4,11 @@ description = 'Exploring how AI can help in software engineering'
 date = 2024-10-10
 draft = false
 
+authors = ["Geert Theys"]
+featuredImage = '/images/ChatGPT.jpg'
 tags = ["Fintech", "Opinion", "AI"]
 
-toc = false
-thumbnail = "/images/ChatGPT.jpg"
 +++
-
-{{img(src="/images/ChatGPT.jpg" alt="Ferris the Rustacean")}}
 
 AI will replace software engineers, and we should start doing something else. At least, that is the current trend in quoting AI hypsters. Recently, even the NVIDIA CEO [said this](https://techwireasia.com/2024/03/nvidias-ceo-jensen-huang-ai-will-take-over-coding-making-learning-optional/). But in the end, he was more nuanced. He agrees that you still need foundational coding principles to make the code pairing with AI successful.
 

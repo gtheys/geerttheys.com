@@ -3,33 +3,32 @@ title = 'AI makes developers more valuable'
 description = 'AI assists coding but hits limitations. Developers spend little time coding, focusing on maintenance, meetings, and management tasks instead.'
 date = 2024-12-09
 draft = false
+authors = ["Geert Theys"]
+featuredImage = '/images/Pit_of_death.svg'
 
 tags = ["Opinion", "AI", "engineering"]
-
-[extra]
-toc = false
-thumbnail = "/images/Pit_of_death.svg"
 +++
-The initial excitement of AI-assisted development is remarkable. Code scaffolding happens at lightning speed, and applications seem to materialize effortlessly. 
 
-{{img(src="/images/Pit_of_death.svg" alt="Pit of death")}}
+The initial excitement of AI-assisted development is remarkable. Code scaffolding happens at lightning speed, and applications seem to materialize effortlessly.
 
 Yet, as your codebase expands, you'll hit what developers call the "pit of death" - that critical point where AI-generated code becomes unreliable and troubleshooting grows increasingly complex. This transition from rapid development to maintenance challenges represents a fundamental shift in how we must approach AI-assisted coding.
 
 <!-- more -->
 
 ## The Truth About Developer Time
+
 Developers actually spend just 52 minutes per day writing code. This isn't a sign of inefficiency - it's a reflection of software development's true nature. The reality is that coding represents only a fraction of a developer's responsibilities.
 
-| Activity | Time Allocation | Key Components |
-|----------|----------------|----------------|
-| Code Management | 35% | Version control, code review, documentation |
-| Meetings & Tasks | 23% | Planning, coordination, client communication |
-| Code Maintenance | 19% | Debugging, optimization, refactoring |
-| Testing | 12% | Unit tests, integration testing, QA |
-| Security Work | 4% | Vulnerability assessment, security patches |
+| Activity         | Time Allocation | Key Components                               |
+| ---------------- | --------------- | -------------------------------------------- |
+| Code Management  | 35%             | Version control, code review, documentation  |
+| Meetings & Tasks | 23%             | Planning, coordination, client communication |
+| Code Maintenance | 19%             | Debugging, optimization, refactoring         |
+| Testing          | 12%             | Unit tests, integration testing, QA          |
+| Security Work    | 4%              | Vulnerability assessment, security patches   |
 
 ## Effective AI Implementation
+
 Think of AI tools like self-driving cars - they're powerful but require constant human oversight. They excel in specific scenarios that leverage their strengths while minimizing their limitations.
 
 **Rapid Prototyping**
@@ -53,6 +52,7 @@ While AI excels at generating unit and integration tests, real user testing rema
 
 **CSS and Design Evolution**
 The next frontier for AI lies in transforming design implementation, potentially revolutionizing how we handle frontend development:
+
 - Converting Figma designs to HTML/CSS automatically with perfect fidelity
 - Streamlining corporate website updates without developer intervention
 - Implementing style changes efficiently across entire applications
@@ -61,6 +61,7 @@ The next frontier for AI lies in transforming design implementation, potentially
 
 **Automation and Integration**
 The future holds promise for comprehensive no-code solutions that could handle:
+
 - Automated A/B testing implementation
 - SEO optimization across entire sites
 - Analytics integration and reporting

@@ -3,21 +3,17 @@ title = 'The Reality Check on LLM Evaluation Frameworks'
 description = 'A critical analysis of LLM evaluation frameworks and their limitations. Explores why benchmark scores dont reflect real-world AI performance, drawing parallels with educational testing. Questions current evaluation methods and proposes practical alternatives for assessing AI capabilities.'
 date = 2025-01-30
 draft = false
+authors = ["Geert Theys"]
+featuredImage = '/images/x1.png'
 
 tags = ["Opinion", "AI", "engineering"]
-
-[extra]
-toc = false
-thumbnail = "/images/x1.png"
 +++
-
-{{img(src="/images/x1.png" alt="Graph Deepseek")}}
 
 We've all seen charts like this where models like [DeepSeek](https://deepseek.ai/) challenge [OpenAI's](https://openai.com/) latest offerings. These comparisons rely on [standardized tests](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) to demonstrate capabilities.
 
 <!-- more -->
 
-{{img(src="/images/1738162067353.jpg" alt="Another Graph Deepseek")}}
+{{< image src="/images/1738162067353.jpg" caption="Another Graph for deepseek performance">}}
 
 As someone tracking the evolution of [LLM evaluation frameworks](https://github.com/EleutherAI/lm-evaluation-harness), I've noticed a concerning pattern: we're falling into the same trap we have with traditional education. Just like students who excel at [standardized testing](https://en.wikipedia.org/wiki/Standardized_test), LLMs are being optimized for [benchmark performance](https://paperswithcode.com/task/language-modelling) rather than practical problem-solving.
 
