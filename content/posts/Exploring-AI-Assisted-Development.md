@@ -6,6 +6,7 @@ draft = false
 
 tags = ["AI"]
 
+[extra]
 toc = true
 thumbnail = "/images/Aider.jpg"
 +++
