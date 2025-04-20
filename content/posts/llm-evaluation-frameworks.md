@@ -1,6 +1,6 @@
 +++
 title = 'The Reality Check on LLM Evaluation Frameworks'
-description = 'A critical analysis of LLM evaluation frameworks and their limitations. Explores why benchmark scores don't reflect real-world AI performance, drawing parallels with educational testing. Questions current evaluation methods and proposes practical alternatives for assessing AI capabilities.'
+description = 'A critical analysis of LLM evaluation frameworks and their limitations. Explores why benchmark scores dont reflect real-world AI performance, drawing parallels with educational testing. Questions current evaluation methods and proposes practical alternatives for assessing AI capabilities.'
 date = 2025-01-30
 draft = false
 
@@ -73,13 +73,13 @@ The true measure of an LLM's capability isn't in its test scores, but in how eff
 
 ## General Capabilities
 
-| Test | Published | Description |
-|------|-----------|-------------|
-| [HELM](https://arxiv.org/abs/2211.09110) | Nov 2022 | Comprehensive evaluation framework covering 12 scenarios including summarization, toxicity, and reasoning. Measures 7 key metrics including accuracy, robustness, fairness, and bias across multiple model families and tasks. |
-| [BIG-bench](https://arxiv.org/abs/2206.04615) | Jun 2022 | Collaborative benchmark of 204 tasks testing capabilities like multilingual understanding, reasoning, and knowledge. Tasks vary from simple to expert-level, with many requiring complex reasoning and specialized knowledge. |
-| [AGIEval](https://arxiv.org/abs/2304.06364) | Apr 2023 | Collection of real-world human standardized tests including graduate admissions exams, professional certifications, and academic competitions. Tests advanced reasoning across mathematics, sciences, and humanities. |
-| [MMLU](https://arxiv.org/abs/2009.03300) | Sep 2020 | Multiple-choice benchmark covering 57 subjects including science, engineering, medicine, law, history, and more. Tests both breadth and depth of knowledge with undergraduate to professional-level questions. |
-| [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) | 2023 | HellaSwag, Winogrande, and other comprehensive benchmarks for evaluating general language model capabilities. Provides standardized comparison metrics across multiple open-source models. |
+| Test                                                                                     | Published | Description                                                                                                                                                                                                                    |
+| ---------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [HELM](https://arxiv.org/abs/2211.09110)                                                 | Nov 2022  | Comprehensive evaluation framework covering 12 scenarios including summarization, toxicity, and reasoning. Measures 7 key metrics including accuracy, robustness, fairness, and bias across multiple model families and tasks. |
+| [BIG-bench](https://arxiv.org/abs/2206.04615)                                            | Jun 2022  | Collaborative benchmark of 204 tasks testing capabilities like multilingual understanding, reasoning, and knowledge. Tasks vary from simple to expert-level, with many requiring complex reasoning and specialized knowledge.  |
+| [AGIEval](https://arxiv.org/abs/2304.06364)                                              | Apr 2023  | Collection of real-world human standardized tests including graduate admissions exams, professional certifications, and academic competitions. Tests advanced reasoning across mathematics, sciences, and humanities.          |
+| [MMLU](https://arxiv.org/abs/2009.03300)                                                 | Sep 2020  | Multiple-choice benchmark covering 57 subjects including science, engineering, medicine, law, history, and more. Tests both breadth and depth of knowledge with undergraduate to professional-level questions.                 |
+| [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) | 2023      | HellaSwag, Winogrande, and other comprehensive benchmarks for evaluating general language model capabilities. Provides standardized comparison metrics across multiple open-source models.                                     |
 
 ## Safety/Alignment
 
@@ -103,28 +103,28 @@ The true measure of an LLM's capability isn't in its test scores, but in how eff
 
 ## Specialized
 
-| Test | Published | Description |
-|------|-----------|-------------|
-| [MedQA](https://arxiv.org/abs/2009.13081) | Sep 2020 | Medical domain benchmark testing clinical knowledge across different medical licensing exams. Includes diagnosis, treatment planning, and medical concept understanding with varying levels of complexity. |
-| [LawBench](https://arxiv.org/abs/2309.16289) | Sep 2023 | Comprehensive legal reasoning benchmark covering case analysis, statutory interpretation, and legal document drafting. Tests understanding of legal principles across multiple jurisdictions and areas of law. |
-| [MathVista](https://arxiv.org/abs/2310.02255) | Oct 2023 | Visual mathematics problems requiring interpretation of graphs, geometric figures, and mathematical notation. Tests both mathematical reasoning and visual understanding across various mathematical domains. |
-| [GPQA Diamond](https://arxiv.org/abs/2311.12022) | Nov 2023 | PhD-level science questions covering physics, chemistry, biology, and interdisciplinary topics. Requires deep understanding of scientific concepts and ability to apply knowledge to complex problems. |
-| [AIME](https://www.maa.org/math-competitions/american-invitational-mathematics-examination-aime) | 2024 | Advanced high school mathematics problems requiring sophisticated problem-solving strategies. Tests deep mathematical reasoning across algebra, geometry, combinatorics, and number theory. |
-| [MATH-500](https://arxiv.org/abs/2310.10631) | Oct 2023 | Collection of advanced mathematical reasoning problems requiring multi-step solutions. Covers undergraduate to graduate-level mathematics including proofs, abstract algebra, and advanced calculus concepts. |
+| Test                                                                                             | Published | Description                                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [MedQA](https://arxiv.org/abs/2009.13081)                                                        | Sep 2020  | Medical domain benchmark testing clinical knowledge across different medical licensing exams. Includes diagnosis, treatment planning, and medical concept understanding with varying levels of complexity.     |
+| [LawBench](https://arxiv.org/abs/2309.16289)                                                     | Sep 2023  | Comprehensive legal reasoning benchmark covering case analysis, statutory interpretation, and legal document drafting. Tests understanding of legal principles across multiple jurisdictions and areas of law. |
+| [MathVista](https://arxiv.org/abs/2310.02255)                                                    | Oct 2023  | Visual mathematics problems requiring interpretation of graphs, geometric figures, and mathematical notation. Tests both mathematical reasoning and visual understanding across various mathematical domains.  |
+| [GPQA Diamond](https://arxiv.org/abs/2311.12022)                                                 | Nov 2023  | PhD-level science questions covering physics, chemistry, biology, and interdisciplinary topics. Requires deep understanding of scientific concepts and ability to apply knowledge to complex problems.         |
+| [AIME](https://www.maa.org/math-competitions/american-invitational-mathematics-examination-aime) | 2024      | Advanced high school mathematics problems requiring sophisticated problem-solving strategies. Tests deep mathematical reasoning across algebra, geometry, combinatorics, and number theory.                    |
+| [MATH-500](https://arxiv.org/abs/2310.10631)                                                     | Oct 2023  | Collection of advanced mathematical reasoning problems requiring multi-step solutions. Covers undergraduate to graduate-level mathematics including proofs, abstract algebra, and advanced calculus concepts.  |
 
 ## Metrics
 
-| Test | Published | Description |
-|------|-----------|-------------|
-| [ROUGE](https://aclanthology.org/W04-1013.pdf) | 2004 | Set of metrics for evaluating automatic summarization and translation. Measures overlap of n-grams, word sequences, and word pairs between system output and human references with multiple variants. |
-| [BLEU](https://aclanthology.org/P02-1040.pdf) | 2002 | Standard metric for machine translation evaluation measuring precision of n-gram matches between system output and reference translations. Includes penalties for length mismatches and repeated phrases. |
-| [METEOR](https://aclanthology.org/W05-0909.pdf) | 2005 | Advanced metric incorporating stemming, synonymy, and paraphrasing for translation evaluation. Considers both precision and recall with sophisticated word alignment and ordering penalties. |
-| [BERTScore](https://arxiv.org/abs/1904.09675) | Apr 2019 | Evaluation metric using contextual embeddings to compute similarity between generated and reference texts. Captures semantic similarity beyond exact matches and correlates better with human judgments. |
+| Test                                            | Published | Description                                                                                                                                                                                               |
+| ----------------------------------------------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ROUGE](https://aclanthology.org/W04-1013.pdf)  | 2004      | Set of metrics for evaluating automatic summarization and translation. Measures overlap of n-grams, word sequences, and word pairs between system output and human references with multiple variants.     |
+| [BLEU](https://aclanthology.org/P02-1040.pdf)   | 2002      | Standard metric for machine translation evaluation measuring precision of n-gram matches between system output and reference translations. Includes penalties for length mismatches and repeated phrases. |
+| [METEOR](https://aclanthology.org/W05-0909.pdf) | 2005      | Advanced metric incorporating stemming, synonymy, and paraphrasing for translation evaluation. Considers both precision and recall with sophisticated word alignment and ordering penalties.              |
+| [BERTScore](https://arxiv.org/abs/1904.09675)   | Apr 2019  | Evaluation metric using contextual embeddings to compute similarity between generated and reference texts. Captures semantic similarity beyond exact matches and correlates better with human judgments.  |
 
 ## Emerging (2024)
 
-| Test | Published | Description |
-|------|-----------|-------------|
-| [LLMBar](https://arxiv.org/abs/2401.00268) | Jan 2024 | Comprehensive evaluation framework analyzing 13 dimensions of LLM capabilities including reasoning, knowledge, and robustness. Provides standardized methodology for comparing models across diverse tasks and domains. |
-| [DeepSeek-Math](https://arxiv.org/abs/2402.03300) | Feb 2024 | Specialized mathematical reasoning benchmark with step-by-step solution validation. Tests understanding of mathematical concepts, proof strategies, and problem-solving across various difficulty levels. |
-| [LLM Comparator](https://arxiv.org/abs/2402.11949) | Feb 2024 | Automated benchmarking system for comparative evaluation of language models. Provides systematic analysis of model strengths and weaknesses across multiple tasks with detailed performance metrics. |
+| Test                                               | Published | Description                                                                                                                                                                                                             |
+| -------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [LLMBar](https://arxiv.org/abs/2401.00268)         | Jan 2024  | Comprehensive evaluation framework analyzing 13 dimensions of LLM capabilities including reasoning, knowledge, and robustness. Provides standardized methodology for comparing models across diverse tasks and domains. |
+| [DeepSeek-Math](https://arxiv.org/abs/2402.03300)  | Feb 2024  | Specialized mathematical reasoning benchmark with step-by-step solution validation. Tests understanding of mathematical concepts, proof strategies, and problem-solving across various difficulty levels.               |
+| [LLM Comparator](https://arxiv.org/abs/2402.11949) | Feb 2024  | Automated benchmarking system for comparative evaluation of language models. Provides systematic analysis of model strengths and weaknesses across multiple tasks with detailed performance metrics.                    |
