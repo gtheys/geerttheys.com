@@ -4,7 +4,6 @@ description = 'Exploring AI-assisted development through a real project: insight
 date = 2024-11-25
 draft = false
 
-[taxonomies]
 tags = ["AI"]
 
 [extra]

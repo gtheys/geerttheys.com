@@ -4,7 +4,6 @@ description = 'AI assists coding but hits limitations. Developers spend little t
 date = 2024-12-09
 draft = false
 
-[taxonomies]
 tags = ["Opinion", "AI", "engineering"]
 
 [extra]

@@ -4,7 +4,6 @@ description = 'In my latest post, I explore the study "Limits for Learning with 
 date = 2024-11-18
 draft = false
 
-[taxonomies]
 tags = ["Opinion", "AI"]
 
 [extra]

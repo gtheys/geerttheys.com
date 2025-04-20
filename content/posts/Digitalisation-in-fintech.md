@@ -4,7 +4,6 @@ description = "SmartDev branded video about Fintech topics"
 date = 2024-03-25
 draft = false
 
-[taxonomies]
 tags = ["Fintech", "Smartdev"]
 
 [extra]

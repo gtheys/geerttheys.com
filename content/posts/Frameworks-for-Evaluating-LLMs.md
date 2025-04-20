@@ -4,7 +4,6 @@ descriptson = 'First installment into a deepdive how do we test LLMs and how muc
 date = 2024-10-28
 draft = false
 
-[taxonomies]
 tags = ["Opinion", "AI"]
 
 [extra]

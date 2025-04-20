@@ -4,7 +4,6 @@ description = 'Exploring how AI can help in software engineering'
 date = 2024-10-10
 draft = false
 
-[taxonomies]
 tags = ["Fintech", "Opinion", "AI"]
 
 [extra]

@@ -4,7 +4,6 @@ description = 'A critical analysis of LLM evaluation frameworks and their limita
 date = 2025-01-30
 draft = false
 
-[taxonomies]
 tags = ["Opinion", "AI", "engineering"]
 
 [extra]

@@ -4,7 +4,6 @@ description = 'One users journey from budget Linux enthusiast to unwitting Googl
 date = 2025-02-25
 draft = false
 
-[taxonomies]
 tags = ["Opinion", "digital-independence"]
 
 [extra]

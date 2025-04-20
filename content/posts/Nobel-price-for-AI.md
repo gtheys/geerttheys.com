@@ -4,7 +4,6 @@ description = 'My 2cents on this topic'
 date = 2024-10-11
 draft = false
 
-[taxonomies]
 tags = ["Opinion", "AI"]
 
 [extra]
