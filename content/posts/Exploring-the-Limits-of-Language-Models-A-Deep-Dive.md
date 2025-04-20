@@ -6,7 +6,6 @@ draft = false
 
 tags = ["Opinion", "AI"]
 
-[extra]
 toc = false
 thumbnail = "/images/deep-dive.jpg"
 +++

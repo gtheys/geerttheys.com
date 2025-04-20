@@ -6,7 +6,6 @@ draft = false
 
 tags = ["Fintech", "Opinion", "AI"]
 
-[extra]
 toc = false
 thumbnail = "/images/ChatGPT.jpg"
 +++

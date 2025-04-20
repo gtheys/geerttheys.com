@@ -6,7 +6,6 @@ draft = false
 
 tags = ["Opinion", "digital-independence"]
 
-[extra]
 toc = false
 thumbnail = "/imagesarch-laptops.webp"
 +++

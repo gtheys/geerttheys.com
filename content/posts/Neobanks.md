@@ -6,7 +6,6 @@ draft = false
 
 tags = ["Fintech", "Smartdev"]
 
-[extra]
 keywords = "Video"
 toc = false
 series = "Smartdev"
