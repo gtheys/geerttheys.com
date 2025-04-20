@@ -7,7 +7,6 @@ draft = false
 tags = ["Fintech", "Smartdev"]
 
 toc = false
-series = "Smartdev"
 +++
 
 {{ youtube(id="btQFAAXRMso") }}

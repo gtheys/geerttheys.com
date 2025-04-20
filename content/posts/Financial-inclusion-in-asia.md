@@ -8,7 +8,6 @@ tags = ["Fintech", "Smartdev", "AI"]
 
 keywords = "Video"
 toc = false
-series = "Smartdev"
 +++
 
 {{ youtube(id="DKMyVVhQcRM") }}
