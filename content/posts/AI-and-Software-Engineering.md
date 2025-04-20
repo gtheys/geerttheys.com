@@ -1,6 +1,6 @@
 +++
-title = "AI makes developers more valuable"
-description = "AI assists coding but hits limitations. Developers spend little time coding, focusing on maintenance, meetings, and management tasks instead."
+title = 'AI makes developers more valuable'
+description = 'AI assists coding but hits limitations. Developers spend little time coding, focusing on maintenance, meetings, and management tasks instead.'
 date = 2024-12-09
 draft = false
 

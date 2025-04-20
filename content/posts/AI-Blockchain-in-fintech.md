@@ -1,6 +1,6 @@
 +++
-title = "AI & Blockchain in Fintech (video)"
-description = "SmartDev branded video about Fintech topics"
+title = 'AI & Blockchain in Fintech (video)'
+description = 'SmartDev branded video about Fintech topics'
 date = 2024-04-17
 draft = false
 

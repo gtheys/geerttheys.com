@@ -1,6 +1,6 @@
 +++
-title = "AI and Software Engineering: Transformation, Not Replacement"
-description = "Exploring how AI can help in software engineering"
+title = 'AI and Software Engineering: Transformation, Not Replacement'
+description = 'Exploring how AI can help in software engineering'
 date = 2024-10-10
 draft = false
 

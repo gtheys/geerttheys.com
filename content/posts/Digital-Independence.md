@@ -1,6 +1,6 @@
 +++
-title = " Digital Independence: A Journey Through Tech Sovereignty"
-description = "One user's journey from budget Linux enthusiast to unwitting Google captive, now reclaiming digital sovereignty through privacy-focused alternatives like ProtonMail, GrapheneOS, and Nextcloud. Discover how geopolitical shifts and corporate surveillance are pushing tech veterans back to their open-source roots—trading convenience for control in an era of eroding digital rights."
+title = ' Digital Independence: A Journey Through Tech Sovereignty'
+description = 'One user's journey from budget Linux enthusiast to unwitting Google captive, now reclaiming digital sovereignty through privacy-focused alternatives like ProtonMail, GrapheneOS, and Nextcloud. Discover how geopolitical shifts and corporate surveillance are pushing tech veterans back to their open-source roots—trading convenience for control in an era of eroding digital rights.'
 date = 2025-02-25
 draft = false
 
