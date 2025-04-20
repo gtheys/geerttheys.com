@@ -1,6 +1,6 @@
 +++
-title = "Nobel Prize in physics for AI"
-description = "My 2cents on this topic"
+title = 'Nobel Prize in physics for AI'
+description = 'My 2cents on this topic'
 date = 2024-10-11
 draft = false
 

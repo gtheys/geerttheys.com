@@ -1,6 +1,6 @@
 +++
-title = "NeoBanks (video)"
-description = "SmartDev branded video about Fintech topics"
+title = 'NeoBanks (video)'
+description = 'SmartDev branded video about Fintech topics'
 date = 2024-07-12
 draft = false
 

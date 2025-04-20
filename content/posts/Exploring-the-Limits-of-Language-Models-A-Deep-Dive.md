@@ -1,6 +1,6 @@
 +++
-title = "Exploring the Limits of Language Models: A Deep Dive"
-description = "In my latest post, I explore the study \"Limits for Learning with Language Models\" by Nicholas Asher and colleagues. This research reveals significant limitations of large language models (LLMs) in understanding key linguistic concepts, particularly universal quantification. Despite their advancements, LLMs struggle to accurately interpret expressions like every, which can lead to reasoning errors in applications such as chatbots and question-answering systems. The findings highlight the need for further research to enhance LLM capabilities and address these gaps in semantic understanding."
+title = 'Exploring the Limits of Language Models: A Deep Dive'
+description = 'In my latest post, I explore the study "Limits for Learning with Language Models" by Nicholas Asher and colleagues. This research reveals significant limitations of large language models (LLMs) in understanding key linguistic concepts, particularly universal quantification. Despite their advancements, LLMs struggle to accurately interpret expressions like every, which can lead to reasoning errors in applications such as chatbots and question-answering systems. The findings highlight the need for further research to enhance LLM capabilities and address these gaps in semantic understanding.'
 date = 2024-11-18
 draft = false
 

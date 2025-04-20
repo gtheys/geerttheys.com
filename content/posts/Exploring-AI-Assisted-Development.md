@@ -1,6 +1,6 @@
 +++
-title = "Exploring AI-Assisted Development: A Journey with My Side Project"
-description = "Exploring AI-assisted development through a real project: insights on tools, challenges, and practical limitations when coding with AI assistants."
+title = 'Exploring AI-Assisted Development: A Journey with My Side Project'
+description = 'Exploring AI-assisted development through a real project: insights on tools, challenges, and practical limitations when coding with AI assistants.'
 date = 2024-11-25
 draft = false
 

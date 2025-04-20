@@ -1,6 +1,6 @@
 +++
-title = "Taming the AI Beast - A Deep Dive into LLM Testing Methods"
-descriptson = "First installment into a deepdive how do we test LLMs and how much do they mean in ranking"
+title = 'Taming the AI Beast - A Deep Dive into LLM Testing Methods'
+descriptson = 'First installment into a deepdive how do we test LLMs and how much do they mean in ranking'
 date = 2024-10-28
 draft = false
 

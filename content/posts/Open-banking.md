@@ -1,6 +1,6 @@
 +++
-title = "Open Banking (video)"
-description = "SmartDev branded video about Fintech topics"
+title = 'Open Banking (video)'
+description = 'SmartDev branded video about Fintech topics'
 date = 2024-04-05
 draft = false
 

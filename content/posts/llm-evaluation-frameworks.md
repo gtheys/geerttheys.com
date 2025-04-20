@@ -1,6 +1,6 @@
 +++
-title = "The Reality Check on LLM Evaluation Frameworks"
-description = "A critical analysis of LLM evaluation frameworks and their limitations. Explores why benchmark scores don't reflect real-world AI performance, drawing parallels with educational testing. Questions current evaluation methods and proposes practical alternatives for assessing AI capabilities."
+title = 'The Reality Check on LLM Evaluation Frameworks'
+description = 'A critical analysis of LLM evaluation frameworks and their limitations. Explores why benchmark scores don't reflect real-world AI performance, drawing parallels with educational testing. Questions current evaluation methods and proposes practical alternatives for assessing AI capabilities.'
 date = 2025-01-30
 draft = false
 

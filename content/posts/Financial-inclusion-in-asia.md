@@ -1,6 +1,6 @@
 +++
-title = "Financial Inclusion In Asia (video)"
-description = "SmartDev branded video about Fintech topics"
+title = 'Financial Inclusion In Asia (video)'
+description = 'SmartDev branded video about Fintech topics'
 date = 2024-07-12
 draft = false
 
